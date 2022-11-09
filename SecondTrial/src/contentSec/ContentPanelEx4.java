@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class ContentPanel extends JPanel {
+public class ContentPanelEx4 extends JPanel  {
 
 	int defaultX = 100;
 	int defaultMarginY = 50;
@@ -12,15 +12,15 @@ public class ContentPanel extends JPanel {
 	public Font defaultFontsStyle_small =  new Font("forte",Font.BOLD, 15);
 	public Font defaultFontsStyle_smaller =  new Font("forte",Font.PLAIN, 10);
 
-	public ContentPanel () {
+	public ContentPanelEx4 () {
 		
 		setLayout(null);
 		setBackground(MainPanel.defaultContentColor);	
 		setPreferredSize(new Dimension(1000,5000));
 
-		JLabel intro_H = new JLabel("<html>이 페이지는 처음 들어왔을 때 페이지 입니다.</html>");
+		JLabel intro_H = new JLabel("<html>페이지Ex4</html>");
 		intro_H.setFont(defaultFontsStyle_big);
-		intro_H.setBounds(defaultX, defaultMarginY, 500, 90);
+		intro_H.setBounds(defaultX, defaultMarginY, 250, 70);
 		add(intro_H); //js 소개
 		
 //		
@@ -51,8 +51,8 @@ public class ContentPanel extends JPanel {
 //		 		+ "콘텐츠를 신문처럼 다열 레이아웃으로 배치할 수 있습니다.)";
 //		 
 //		 
-//		 
-//		 
+		 
+		 
 		 
 		
 		

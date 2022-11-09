@@ -9,7 +9,7 @@ public class TitlePanel extends JPanel  {  //라벨이 가능하면 라벨로, �
 		
 		 setLayout(null);
 		 setPreferredSize(new Dimension(500,180));//BorderLayout에서 Component의 크기 설정
-		 setBackground(Color.green);
+		 setBackground(MainPanel.defaultBackgroundColor);
 		 
 		 JLabel title = new JLabel("I want to be a Developer");
 		 title.setFont(new Font("G마켓 산스 TTF", Font.PLAIN, 25));
